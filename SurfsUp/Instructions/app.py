@@ -20,27 +20,27 @@ def home():
 @app.route('/api/v1.0/precipitation')
 def precipitation():
     """Convert the query results from your precipitation analysis to a dictionary."""
-    # Your code here
+    
 
 @app.route('/api/v1.0/stations')
 def stations():
     """Return a JSON list of stations from the dataset."""
-    # Your code here
+  
 
 @app.route('/api/v1.0/tobs')
 def tobs():
     """Query the dates and temperature observations of the most-active station for the previous year of data."""
-    # Your code here
+    
 
 @app.route('/api/v1.0/<start>')
 def start(start):
     """Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start date."""
-    # Your code here
+    
 
 @app.route('/api/v1.0/<start>/<end>')
 def start_end(start, end):
     """Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start-end range."""
-    # Your code here
+    
 
 # Run the app
 if __name__ == '__main__':
